@@ -84,7 +84,7 @@
 以下均为我熟练使用的技能
 
 - java开发：javaEE,JVM,OOP,OOM,Spring,Springboot,Spring Cloud,Mybatis,Hibernate
-- 数据库相关：MySQL/Oracle/MSSQL
+- 数据库相关：MySQL/Oracle/MSSQL/Redis/Mongodb
 - 中间件：ActiveMQ,Kafka,RabbitMQ
 - 版本管理、文档和自动化部署工具：Svn/Git/Maven/Jenkins/Docker
 - 单元测试：Junit/Mockito/Spock/Jmeter
