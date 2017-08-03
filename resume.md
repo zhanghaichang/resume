@@ -4,8 +4,8 @@
 # 联系方式
 - Email：zhanghaichang@163.com
 - QQ/微信号：77022369
-- 网站：[www.dwring.com](www.dwring.com)
-- github:[https://github.com/zhanghaichang](www.dwring.com)
+- 网站：[www.dwring.com](http://www.dwring.com)
+- github:[https://github.com/zhanghaichang](http://www.dwring.com)
 
 ---
 
