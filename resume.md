@@ -28,25 +28,25 @@
 * **岗位描述**：主要负责项目FSD架构评审，系统架构优化，难题攻克，Code Review,参与定制相关技术规范，技术培训，IT基础平台搭建，公司框架维护。
 
 ### DTF （Deeper Tier Financing）供应链金融平台
-* **技术实现**：java,mysql,redis,spring cloud,spring-boot,docker,vue,文件存储OSS
+* **技术实现**：Java,Mysql,Redis,Spring Cloud,Spring-Boot,Docker,Vue,文件存储OSS
 * **项目描述**：依托一个核心企业，围绕这个企业的上下游的供应商来进行融资活动，给整个供应链提供一系列深层次融资服务.提供基于核心企业的应收账款单的支付流转及融资功能。系统模块分为：企业平台、资金方平台、管理后台。**企业平台** :应收帐款管理，应付账款管理，交易记录查询，还款记录，清算记录，邀请供应商，企业信息，消息中心.**资金方平台** :权限管理,贴现审核,企业信息，还款管理,消息中心.**管理后台** :供应商注册审核，资金方管理，交易记录查询，还款记录，交易配置,数据报表.
 * **技术要点**：分布式系统，前后端分离，Restful API,数据一致性，国际化
 * **个人职责**：主要负责 债务发行，债务转让模块，交易记录模块
 
 ### Callback Service 暖薪贷回调 
-* **技术实现**：java,mongodb,redis,spring-boot,docker
+* **技术实现**：Java,Mongodb,Redis,Spring-Boot,Docker
 * **项目描述**：专门为暖薪贷项目结构设计，异步解耦。RESTful API调用方式。做为互联网前端和后端（小贷，标的，合同模块）中间层的通讯，异步解耦。为后台提供API调用call back通知服务。
 * **技术要点**:容错性和高可用，高性能的架构设计和处理。
 * **个人职责**: 主要负责该模块新增和修改和优化。
 
 ### API-Gateway网关
-* **技术实现**：java,mysql,springcloud,spring-boot,hazelcast，html
+* **技术实现**：Java,Mysql,Spring Cloud,Spring-Boot,Hazelcast，Html
 * **项目描述**：Gateway 是作为夸客其他服务的外部流量入口, 网关封装了系统内部架构，为每个客户端提供一个定制的API。它可能还具有其它职责，如身份验证、监控、负载均衡、缓存、请求分片与管理、静态响应处理。提供高性能、高可用的 API 托管服务，分为网关后台quark-platform-proxy-zuul，控制台quark-platform-gateway-manager
 * **技术要点**: 所有的客户端和消费端都通过统一的网关接入微服务，在网关层处理所有的非业务功能。提供REST/HTTP的访问API，还有高可用的部署。
 * **个人职责**: 主要负责该系统开发和缺陷修复和后期优化
 
 ### Service Discovery服务注册与发现
-* **技术实现**：java,spring cloud,spring-boot
+* **技术实现**：Java,Spring Cloud,Sring-Boot
 * **项目描述**：service经常需要调用另一个service，在单一架构应用中，service通过语言层面或者程序层面去调用，在传统的分布式系统部署中，服务运行在一个固定的已知的地址（host和ports），从而可以简单的被别的service通过HTTP/REST或者某种RPC机制来调用。但是，微服务架构应用经常运行在虚拟化的或者容器化的环境中，很多服务和他们的地址是动态变化的。因此, 你必须实现一种机制，使得service的客户端可以发送请求到动态变化的service实例上。quark-platform-java-discovery-client是夸客注册中心的客户端SDK，后台应用服务注册到注册中心。客户端可采用引用Jar包来读取应用服务列表，实现服务之间的调用，采用负载均衡轮询方式来调用服务。
 * **技术要点**: 服务列表的维护和服务的心跳检测，不可用服务的剔除。服务之间的负载均衡和高可用。
 * **个人职责**: 主要负责该模块新增和修改和优化
@@ -59,7 +59,7 @@
 * **岗位描述**：主要负责浦发信用卡系统银行征信模块自动节点的设计开发和维护优化，报表系统的开发和设计维护。新增业务架构设计和后期优化。
 
 ### 浦发信用卡预审系统
-* **技术实现**：java,oracle, dubbo, zookeeper，activeMQ，tomcat,nginx等
+* **技术实现**：Java,Oracle, Dubbo, Zookeeper，ActiveMQ，Tomcat,Nginx等
 * **项目描述**：基于互联网模式的微服务理念使用开源框架量身定做的信用卡预审系统，每天接受处理10W笔左右前端营销人员发送过来的信用卡申请件，本系统负责信用卡的征信，电核，反欺诈，风险评估，审批，以及开卡等整个信用卡的全流程。整个流程从申请开始到开卡只需要10分钟就能处理一笔申请件。系统应用创新多次获得表彰。
 * **技术要点**:重要集中在高并发带来的数据不一致性和远程方法调用timeout造成的异常，针对这些问题要一一设计出相应的解决方案，还有对外通过SOA调取征信数据，和报文解析，大量客户业务数据的存取数据结构的设计。
 * **个人职责**: 主要负责银行征信模块的架构设计和业务人员对接交付测试，具体实现代码开发和后期维护和优化
@@ -67,7 +67,7 @@
 
 
 ### 浦发信用卡预审报表系统 
-* **技术实现**：java,oracle,tomcat,nginx，html等
+* **技术实现**：Java,Oracle,Tomcat,Nginx，Html等
 * **项目描述**： 报表系统是记录信用卡每天处理情况数据汇总，设计报表80多张，报表格式分为excel，csv格式。报表数据量每日千万级别。基于批处理机制，定时调度作业。实时生成业务报表文件。为领导管理和业务人员决策提供了充分的数据支撑。多次获得领导肯定。
 * **技术要点**:涉及到大量业务数据SQL查询语句会直接影响正在运行的系统，把报表数据库和业务库分离通过数据同步。还有大量的SQL查询语句的优化。
 * **个人职责**: 负责该系统架构的设计和搭建以及具体的技术难点攻关。
@@ -76,7 +76,7 @@
 * **岗位**：软件开发工程师
 * **岗位描述**：驻外资银行技术部开发和维护银行内部大型业务系统workflow,和银行账单系统的开发和数据处理Report。
 ### E-advice batch system (银行账单系统)
-* **技术实现**：c#,存储过程，sqlserver2005，水晶报表,
+* **技术实现**：C#,存储过程，Sqlserver2005，水晶报表,
 项目描述： 基于Batch system 为基础使用水晶报表为模板，分批处理银行核心EBBS系统每天客户交易信息，理财产品每日收益和赎回，客户购买保险，客户每日存取款信息，生成相应的账单发通过email 和纸质邮寄和发送给企业客户和个人客户供财务做账。每日处理数据量达到百万级别。
 * **技术要点**: 基于C# 输出控制台系统，难点在于数据库数据结构的设计没有冗余，利用Windows servers 后台调用c# 程序处理数据，由于业务逻辑过于复杂，必须采用存储过程加C#及水晶报表模板的设计。后台还要通过邮件加密发送到客户邮箱里面。纸质的账单还要通过加密专网发送给上海电信打印邮寄给客户。记录相关的日志记录供业务人员追踪。
 * **个人职责**: 主要负责新增和修改新的信的类型的开发。
@@ -87,12 +87,12 @@
 
 以下均为我熟练使用的技能
 
-- java开发：javaEE,JVM,OOP,OOM,Spring,Springboot,Spring Cloud,Mybatis,Hibernate
+- Java开发：JavaEE,JVM,OOP,OOM,Spring,Spring boot,Spring Cloud,Mybatis,Hibernate
 - 数据库相关：MySQL/Oracle/MSSQL/Redis/Mongodb
 - 中间件：ActiveMQ,Kafka,RabbitMQ
 - 版本管理、文档和自动化部署工具：Svn/Git/Maven/Jenkins/Docker
 - 单元测试：Junit/Mockito/Spock/Jmeter
-- Web开发：HTML、CSS、JavaScript、JQuery、Bootstrap
+- Web开发：Html、Css、JavaScript、JQuery、Bootstrap
 - 其他：CI/CD,linux
 
 
