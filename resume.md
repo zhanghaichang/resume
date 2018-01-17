@@ -34,7 +34,7 @@
 * **个人职责**：主要负责 债务发行，债务转让模块，交易记录模块
 
 ### Callback Service 暖薪贷回调 
-* **技术实现**：java,mmongodb,redis,spring-boot,docker
+* **技术实现**：java,mongodb,redis,spring-boot,docker
 * **项目描述**：专门为暖薪贷项目结构设计，异步解耦。RESTful API调用方式。做为互联网前端和后端（小贷，标的，合同模块）中间层的通讯，异步解耦。为后台提供API调用call back通知服务。
 * **技术要点**:容错性和高可用，高性能的架构设计和处理。
 * **个人职责**: 主要负责该模块新增和修改和优化。
