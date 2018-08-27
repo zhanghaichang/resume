@@ -27,6 +27,22 @@
 * **岗位**：架构师
 * **岗位描述**：主要负责项目FSD架构评审，系统架构优化，难题攻克，Code Review,参与定制相关技术规范，技术培训，IT基础平台搭建，公司框架维护。
 
+
+### 六扇门Auto Devops平台
+* **技术实现**：Kubernetes,Jenkins,Docker,Harbor,GitLab,Java,Mysql,AntD
+* **项目描述**：古时六扇门代指六部衙门，项目以它为名，寓意希望它可以处理CICD中各项事务、权限及流程。六扇门的重点不是自己造轮子，而是把各个开源组件的功能聚合起来，并按夸客的开发流程来实现一个极尽简单易用的CICD平台.
+先基于jenkins、kubernetes、gitlab等实现基本的CICD功能，实现可视化、LDAP登陆、人员权限管理、流程控制、关键节点邮件通知功能、环境管理功能
+* **技术要点**：集中式管理,集成各个中间件API
+* **个人职责**：环境模块的开发工作
+
+
+### AMS Api对外统一平台
+* **技术实现**：Jenkins,Docker,GitLab,Mongodb,Java
+* **项目描述**：随着
+* **技术要点**：
+* **个人职责**：
+
+
 ### Kubernetes 容器云平台落地
 * **技术实现**：Kubernetes,NFS,Elasticsearch,Kibana,Fluent,Jenkins,Docker,Harbor,Rancher2.0,GitLab
 * **项目描述**：随着公司业务的增长和系统架构的演化，需要更有效地控制资金成本，提升研发和运维迭代的周期，我们基于Docker和Kubernetes,Rancher2.0开源技术构建了一套云容器管理平台，
