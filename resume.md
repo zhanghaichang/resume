@@ -29,7 +29,7 @@
 
 
 ### 六扇门Auto Devops平台
-* **技术实现**：Kubernetes,Jenkins,Docker,Harbor,GitLab,Java,Mysql,AntD
+* **技术实现**：Spring-Boot,Kubernetes,Jenkins,Docker,Harbor,GitLab,Java,Mysql,AntD
 * **项目描述**：古时六扇门代指六部衙门，项目以它为名，寓意希望它可以处理CICD中各项事务、权限及流程。六扇门的重点不是自己造轮子，而是把各个开源组件的功能聚合起来，并按夸客的开发流程来实现一个极尽简单易用的CICD平台.
 先基于jenkins、kubernetes、gitlab等实现基本的CICD功能，实现可视化、LDAP登陆、人员权限管理、流程控制、关键节点邮件通知功能、环境管理功能
 * **技术要点**：集中式管理,集成各个中间件API
@@ -37,10 +37,10 @@
 
 
 ### AMS Api对外统一平台
-* **技术实现**：Jenkins,Docker,GitLab,Mongodb,Java
-* **项目描述**：随着
-* **技术要点**：
-* **个人职责**：
+* **技术实现**  Spring-Boot,Jenkins,Docker,GitLab,Mongodb
+* **项目描述**：ams系统是一个面向服务的平台，是针对公司内部各系统与第三方服务系统交互的枢纽，涉及募集计划、进件信息、审核结果、出借人列表、债权关系反馈业务等功能的平台。
+* **技术要点**：Restful 统一报文格式,报文持久化,异步通知
+* **个人职责**：还款和扣款通知模块的开发工作
 
 
 ### Kubernetes 容器云平台落地
@@ -114,10 +114,10 @@
 - Java开发：JavaEE,JVM,OOP,OOM,Spring,Spring-Boot,Spring Cloud,Mybatis,Hibernate
 - 数据库相关：MySQL/Oracle/MSSQL/Redis/Mongodb
 - 中间件：ActiveMQ,Kafka,RabbitMQ
-- 版本管理、文档和自动化部署工具：Svn/Git/Maven/Jenkins/Docker
+- 版本管理、文档和自动化部署工具：Svn/Git/Maven/Jenkins
 - 单元测试：Junit/Mockito/Spock/Jmeter
 - Web开发：Html、Css、JavaScript、JQuery、Bootstrap
-- 其他：CI/CD,Linux
+- 其他：CI/CD,Linux/Docker/Rancher/Kubernetes
 
 
 ---
