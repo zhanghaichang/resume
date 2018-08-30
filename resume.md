@@ -65,7 +65,7 @@
 
 ### API-Gateway网关
 * **技术实现**：Java,Mysql,Spring Cloud,Spring-Boot,Hazelcast，Html
-* **项目描述**：Gateway 是作为夸客其他服务的外部流量入口, 网关封装了系统内部架构，为每个客户端提供一个定制的API。它可能还具有其它职责，如身份验证、监控、负载均衡、缓存、请求分片与管理、静态响应处理。提供高性能、高可用的 API 托管服务，分为网关后台quark-platform-proxy-zuul，控制台quark-platform-gateway-manager
+* **项目描述**：Gateway 是作为夸客其他服务的外部流量入口, 网关封装了系统内部架构，为每个客户端提供一个定制的API。它可能还具有其它职责，如身份验证、监控、负载均衡、缓存、静态响应处理。提供高性能、高可用的 API 托管服务，分为网关后台quark-platform-proxy-zuul，控制台quark-platform-gateway-manager
 * **技术要点**: 所有的客户端和消费端都通过统一的网关接入微服务，在网关层处理所有的非业务功能。提供REST/HTTP的访问API，还有高可用的部署。
 * **个人职责**: 主要负责该系统开发和缺陷修复和后期优化
 
