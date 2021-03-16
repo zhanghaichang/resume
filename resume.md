@@ -3,7 +3,7 @@
 
 # 联系方式
 - Email：zhanghaichang@163.com
-- QQ/微信号：77022369
+- 电话：13585822244
 - 网站：[www.dwring.com](http://www.dwring.com)
 - github:[https://github.com/zhanghaichang](https://github.com/zhanghaichang)
 
@@ -12,7 +12,7 @@
 # 个人信息
 
  - 张海昌/男/1986 
- - 本科/北京航空航天大学 
+ - 本科/北京航空航天大学（2016/经济管理）
  - 工作年限：9年
  - 期望职位：微服务架构师
  - 期望城市：上海
