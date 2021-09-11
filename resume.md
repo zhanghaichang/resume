@@ -3,7 +3,7 @@
 
 # 联系方式
 - Email：zhanghaichang@163.com
-- 电话：13585822244
+- wechat: 77022369
 - 网站：[www.dwring.com](http://www.dwring.com)
 - github:[https://github.com/zhanghaichang](https://github.com/zhanghaichang)
 
